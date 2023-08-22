@@ -37,7 +37,7 @@ The number of characters must be an integer (1, 2, etc.).
 A list of all possible themes will print.
 This list will subsequently appear for all future interactions with *solver*.
 
-After, ```Spaces: ``` will print.
+After, ```Spaces:``` will print.
 Enter the number of spaces (integer) in the theme.
 Usually this value is 0, 1, or 2.
 A new list of all possible themes will print.
@@ -48,7 +48,7 @@ The first character is 1, not 0.
 A new list of all possible themes will print.
 
 This loop will continue until broken by entering ```q``` when ```Hint:``` prints.
-To quit *solver*, enter ```q``` when ```Characters:``` or ```Spaces:``` prints.
+To quit *solver*, enter ```q``` when ```Characters:``` prints.
 To quit the code, enter ```q``` when ```Option:``` prints.
 
 # Examples
@@ -81,8 +81,8 @@ This is enough information for the code to identify the theme as **milky way**.
 The user need not completely rely on the code.
 Cross-referencing builds with the code often enables the user to infer themes.
 
-To return to the beginning of *solver*, enter ```q``` when ```Hint:``` prints.
-To return to *menu*, enter ```q``` when ```Characters:``` or ```Spaces:``` prints.
+To return to the beginning of *solver*, enter ```q``` when ```Spaces:``` or ```Hint:``` prints.
+To return to *menu*, enter ```q``` when ```Characters:```prints.
 To quit the code, enter ```q``` when ```Option:``` prints.
 
 # Errors

@@ -44,7 +44,7 @@ def solver():
         try:
             spaces = input("Spaces: ")
             if spaces == "q":
-                menu()
+                solver()
             spaces = int(spaces)
 
         except ValueError:
