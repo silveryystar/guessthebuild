@@ -25,7 +25,7 @@ def solver():
 
     while True:
         try:
-            characters = input("Characters: ")
+            characters = input("Characters: ").lower()
             if characters == "q":
                 menu()
             characters = int(characters)
@@ -42,7 +42,7 @@ def solver():
 
     while True:
         try:
-            spaces = input("Spaces: ")
+            spaces = input("Spaces: ").lower()
             if spaces == "q":
                 solver()
             spaces = int(spaces)
@@ -80,7 +80,7 @@ def solver():
 
 
 def menu():
-    command = input("Option: ")
+    command = input("Option: ").lower()
     if command == "a":
         appender()
 
